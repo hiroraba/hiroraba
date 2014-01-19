@@ -7,7 +7,7 @@ env:
     - GIT_COMMITER_EMAIL=hiroraba@gmail.com
     - GIT_AUTHOR_NAME=hiroraba
     - GIT_AUTHOR_EMAIL=hiroraba@gmail.com
-    - secure: "H1JT75+HjWh/zi98qe9O2D565O5rmaPyAZmZ0dfMIPbzEaEJvKlaVyUs8SgLNule/xT4ij5fDJMij87ogrYspOGWx5KCLVwxD07zZStm2iqM8k5VIFVOR5nxz+too9R5Tu96rUVcF5pOd9+dF8fiXfKZ5RrbAaZKNZ9oj/QYiyk="
+    - secure: "HohxyRmJbbCqZ6UlB9ullJBZ1XWc5sdFeJKx+2U+Hrgqo+U3uQSGPMZi8gJizjMYkA+rtSDufrZYT3Qa/76nczY0GCF6cHdKwvfHhFMlSOCuJlorhgGwAup3lO5gQJ2VpLgmJDxmBfJypgJU5PnnPCI791Aftl1XFwvF2DG5rR4="
 before_script:
     - git clone --quiet https://github.com/hiroraba/hiroraba.git build
     - pushd build

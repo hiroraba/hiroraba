@@ -1,6 +1,5 @@
 ---
 language: ruby
-script: bundle exec middleman build
 env:
   global:
     - GIT_COMMITER_NAME=hiroraba
@@ -13,6 +12,7 @@ before_script:
     - pushd build
     - git checkout -b gh-pages
     - popd
+script: bundle exec middleman build
 after_success:
     - cd build
     - git add -A
